@@ -14,7 +14,7 @@ youRock('Sara') //'You rock Sara!'
 2.  Define a `square` function that accepts a number argument and returns that number multipled by itself.
 ```js
 square = (n) => {
-  return n * n
+  return n**2
 }
 square(2) // 4
 square(3) // 9
@@ -23,7 +23,7 @@ square(3) // 9
 3.  Define a `cube` function that accepts a number argument and returns that number raised to the third power.
 ```js
 cube = (n) => {
-  return n^3
+  return n**3
 }
 cube(2) // 8
 cube(3) // 27
@@ -32,7 +32,7 @@ cube(3) // 27
 4.  Define a `toTheFourth` function that accepts a number argument and returns that number raised to the fourth power.
 ```js
 toTheFourth = (n) => {
-  return n^4
+  return n**4
 }
 toTheFourth(2) // 16
 toTheFourth(3) // 81
@@ -44,7 +44,7 @@ If you finish the Lab, try this challenge.
 
 Write a function that will add, subtract, multiply or divide two numbers and return the answer 
 ```js
-calculate = (n1, n2, command) => {
+calculator = (n1, n2, command) => {
   if(command == "add") return n1+n2
   else if (command == "subtract") return n1-n2
   else if(command == "multiply") return n1*n2
